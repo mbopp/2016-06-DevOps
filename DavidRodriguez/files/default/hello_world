@@ -1,0 +1,11 @@
+server {
+  listen   80;
+  server_name  default-centos-66;
+
+  access_log  /var/log/nginx/localhost.access.log;
+
+  location / {
+    root   /var/www/hello_world;
+    index  index.html index.htm;
+  }
+}

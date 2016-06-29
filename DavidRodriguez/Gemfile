@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+
+gem 'berkshelf'
+
+gem 'test-kitchen'
+gem 'kitchen-vagrant'
+gem 'kitchen-rackspace'
+gem 'foodcritic'
+gem 'rubocop'
+gem 'chefspec'
+gem 'fauxhai'
+gem 'json'
+gem 'guard', '= 2.8.2'
+gem 'guard-rspec', '= 4.4.1'
+gem 'guard-kitchen'
+gem 'guard-foodcritic'
+gem 'guard-rubocop'
+gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
+gem 'kitchen-nodes'
+gem 'winrm-transport', '= 1.0.0'
